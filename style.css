@@ -78,7 +78,7 @@ nav ul li a {
   margin-bottom: 30px;
 }
 
-#intro a, #programs a, #testimonials a {
+#intro a, #programs a {
   text-decoration: none;
   color: #000;
   font-size: 20px;
@@ -98,4 +98,91 @@ nav ul li a {
 #intro .derecha p {
   font-size: 30px;
   letter-spacing: 5px;
+}
+
+/* PROGRAMS */
+#programs {
+  padding-top: 90px;
+  text-align: center;
+  font-family: 'Oswald';
+}
+
+.rojo {
+  color: red;
+}
+
+#programs .cero {
+  font-size: 80px;
+  margin-bottom: 0;
+}
+
+#programs h2 {
+  font-size: 63px;
+  font-weight: 100;
+  letter-spacing: 16px;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+
+#programs .ini {
+  letter-spacing: 18px;
+  font-size: 15px;
+}
+
+#programs p {
+  font-family: 'Open Sans';
+  color: #666;
+  font-size: 15px;
+  width: 73%;
+  margin: auto;
+  line-height: 30px;
+}
+
+#programs a {
+  margin-top: 62px;
+  display: inline-block;
+}
+
+.contenedor-programs {
+  display: flex;
+  margin-top: 50px;
+  width: 88%;
+  margin: auto;
+}
+
+#programs #uno {
+  background: #2A2E3F;
+  color: #fff;
+}
+
+#uno p, #dos p, #tres p {
+  color: #fff;
+  text-align: left;
+  width: 100%;
+}
+
+h3 {
+  font-size: 26px;
+  letter-spacing: 4px;
+  margin: 0;
+  text-align: left;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.program {
+  padding: 45px 47px;
+  box-shadow: 50px 70px 120px -42px rgba(0,0,0,0.3);
+}
+
+#dos {
+  background: red;
+  color: #fff;
+  position: relative;
+  top: 120px;
+}
+
+#tres p {
+  color: #000;
 }

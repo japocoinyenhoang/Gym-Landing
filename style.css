@@ -212,3 +212,61 @@ h3 {
   border: 0;
   background: none;
 }
+
+/* JOIN */
+#join {
+  display: flex;
+  padding-top: 200px;
+}
+
+#join .izquierda {
+  width: 49%;
+  background: #FA2A20;
+  margin-left: 100px;
+  height: 340px;
+  position: relative;
+}
+
+#join img {
+  width: 47%;
+}
+
+#join .derecha {
+  width: 53%;
+  position: relative;
+  background: url(imagenes/join-back.jpg);
+  background-size: cover;
+}
+
+#join .izquierda a {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 15px 24px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Oswald';
+  letter-spacing: 5px;
+  position: absolute;
+  top: 8%;
+  left: 32%;
+}
+
+#join #uno {
+  position: absolute;
+  top: 24%;
+  left: 56%;
+  z-index: 1;
+  width: 44%;
+}
+
+#join #dos {
+  position: absolute;
+  top: -44%;
+}
+
+#join #tres {
+  position: absolute;
+  left: 47%;
+  top: 24%;
+  width: 44%;
+}

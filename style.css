@@ -431,3 +431,204 @@ input[type="submit"] {
   margin-top: 20px;
 }
 
+.menu-icon {
+  display: none;
+}
+
+
+@media screen and (max-width: 800px) {
+    nav {
+      position: absolute;
+      top: 15%;
+      left: 0;
+      width: 100%;
+      background: #000;
+      display: none;
+    }
+
+    .menu-icon {
+      display: block;
+      float: right;
+    }
+
+  nav ul li {
+      display: block;
+      margin-bottom: 20px;
+  }
+
+  nav ul li a {
+      color: #fff;
+  }
+
+  #intro .izquierda p {
+      letter-spacing: 9px;
+  }
+
+  #intro h1 {
+      font-size: 36px;
+      letter-spacing: 13px;
+  }
+
+  #intro a, #programs a, #testimonials a {
+      font-size: 13px;
+      letter-spacing: 4px;
+  }
+
+  #intro .izquierda {
+      width: 100%;
+      padding: 24px 26px;
+      height: 258px;
+  }
+
+  #intro {
+      flex-direction: column;
+  }
+
+  #intro .derecha {
+      width: 100%;
+      height: 200px;
+  }
+
+  #programs .cero {
+      font-size: 57px;
+  }
+
+  #programs .ini {
+      letter-spacing: 12px;
+  }
+
+  #programs h2 {
+      font-size: 34px;
+  }
+
+  #programs p {
+      width: 100%;
+  }
+
+  .contenedor-programs {
+      flex-direction: column;
+      margin-top: 40px;
+  }
+
+  #dos {
+      position: relative;
+      top: 35px;
+  }
+
+  #tres {
+      margin-top: 50px;
+  }
+
+  #video {
+    width: 342px;
+        height: 298px;
+  }
+
+  #section-video i {
+    font-size: 62px;
+  }
+
+  #section-video .botones {
+      top: 42%;
+      left: 40%;
+  }
+
+  #section-video {
+      padding-top: 0;
+  }
+
+  #join {
+      flex-direction: column;
+  }
+
+  #join .izquierda {
+      width: 100%;
+      margin-left: 0;
+  }
+
+  #join #uno {
+      top: 34%;
+      left: 30%;
+  }
+
+  #join .derecha {
+      width: 100%;
+  }
+
+  #join #tres {
+      left: 47%;
+      top: 82px;
+      width: 53%;
+  }
+
+  #join #dos {
+      top: 1px;
+  }
+
+  #join img {
+      width: 63%;
+  }
+
+  #testimonials {
+      padding-top: 390px;
+  }
+
+  #testimonials h2 {
+      font-size: 24px;
+  }
+
+  .contenedor-testimonials {
+      flex-direction: column;
+  }
+
+  .testimonial {
+      width: 100%;
+  }
+
+  .foto {
+      height: 59px;
+  }
+
+  #contacto {
+      flex-direction: column;
+  }
+
+  #contacto .izquierda {
+      width: 100%;
+  }
+
+  #contacto .izquierda {
+      padding: 26px;
+  }
+
+  #contacto .izquierda p {
+      letter-spacing: 9px;
+  }
+
+  #contacto h2 {
+      font-size: 35px;
+  }
+
+  #contacto form input[type="text"], #contacto form input[type="email"], #contacto form textarea {
+      width: 82%;
+  }
+
+  input[type="submit"] {
+      float: LEFT;
+  }
+
+  #contacto .derecha {
+      padding: 5px 18px 50px 17px;
+      width: 91%;
+  }
+
+  .gym-hours {
+      padding: 16px;
+  }
+
+  .pass {
+      padding: 13px;
+  }
+
+}
+

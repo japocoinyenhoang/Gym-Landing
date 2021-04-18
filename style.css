@@ -36,3 +36,66 @@ nav ul li a {
   text-decoration: none;
   color: #000;
 }
+
+/* INTRO */
+
+#intro {
+  background: url(imagenes/intro.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Oswald';
+  display: flex;
+}
+
+#intro .izquierda {
+  background-color: rgba(255,255,255,0.85);
+  width: 66%;
+  padding: 65px 75px;
+}
+
+#intro .derecha {
+  width: 57%;
+  color: #fff;
+  height: 503px;
+  background-image: linear-gradient(180deg, rgba(255,255,255,0) 80%, #fff 80%);
+}
+
+#intro .contenido {
+  background: red;
+  padding: 1px 50px 40px 50px;
+}
+
+#intro .izquierda p {
+  font-size: 14px;
+  letter-spacing: 18px;
+}
+
+#intro h1 {
+  font-size: 66px;
+  font-weight: 100;
+  letter-spacing: 19px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+#intro a, #programs a, #testimonials a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  letter-spacing: 7px;
+  border-bottom: 2px solid red;
+  padding-bottom: 13px;
+  padding: 0 18px 13px 10px;
+}
+
+#intro .derecha a {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 20px;
+  display: inline-block;
+}
+
+#intro .derecha p {
+  font-size: 30px;
+  letter-spacing: 5px;
+}
